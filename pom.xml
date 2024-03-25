@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.inventory</groupId>
-	<artifactId>java_based_config</artifactId>
+	<artifactId>Product-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>java_based_config</name>
+	<name>Product-1</name>
 	<description>Database Connectivity inventory</description>
 	<properties>
 		<java.version>21</java.version>
@@ -59,11 +59,6 @@
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.database</groupId>
-			<artifactId>DatabaseConnectivity1</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
